@@ -12,7 +12,7 @@ An original chess engine written from scratch for make.fun's
   quiescence search on captures (and check evasions), MVV-LVA ordering,
   transposition table with Zobrist keys, material + piece-square evaluation
 - Deterministic: fixed node budget, no clock, no randomness
-- `main.py` is the whole engine (4,088 bytes): an lzma-compressed payload
+- `main.py` is the whole engine (3,984 bytes): an lzma-compressed payload
   unpacked and executed at start; Python 3.13, standard library only
 
 Run it against the competition env (the env serves the games):
